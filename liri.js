@@ -17,11 +17,6 @@ const client = new Twitter(keys.twitter);
 const liriRequest = process.argv[2];
 const searchQuery = process.argv.slice(3).join(' ');
 
-//LOOP TO CHECK ADDITIONAL SEARCH QUERY VALUES
-// for (var i = 4; i < process.argv.length; i++) {
-//     searchQuery += ` + ${process.argv[i]}`
-// }
-
 //THE SWITCH LINE
 switch (liriRequest) {
     case "spotify-this-song":
