@@ -37,6 +37,9 @@ switch (liriRequest) {
 
 //LIRI SEARCHES SPOTIFY FOR YOUR REQUESTED TRACK
 function searchTrack() {
+    if (searchQuery.length === 0) {
+        searchQuery = "The Sign Ace of Base"
+    }
     spotify.search({ type: 'track', query: searchQuery }, function (err, data) {
         if (err) {
             return console.log('Error: ' + err);
