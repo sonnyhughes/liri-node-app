@@ -1,0 +1,3 @@
+21:49:18.967 INFO  Request Log: movie-this Ghostbusters 
+22:02:40.133 INFO  Request Log: spotify-this-song back in black 
+22:04:19.726 INFO  Request Log: movie-this star wars
